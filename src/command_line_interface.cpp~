@@ -181,7 +181,7 @@ void command_line_interface::execute_search_sequence(std::vector<std::string> ar
 {
 	if(arg.size() == 2)
 	{
-		if(path::is_not_path_name(arg[1]))
+		if(directory::is_not_path_name(arg[1]))
 		{
 			std::vector<std::string> result;
 			this->current_directory->search(arg[1], result);
