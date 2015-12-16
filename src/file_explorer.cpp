@@ -2,7 +2,7 @@
 
 int main()
 {
-	command_line_interface("/home/kiran/File_Explorer");
+	command_line_interface("/");
 
 	return 0;
 }
